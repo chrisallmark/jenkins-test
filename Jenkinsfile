@@ -12,6 +12,7 @@ pipeline {
             steps {
                 echo 'Testing..'
                 sleep 10
+                error '!'
             }
         }
         stage('Deploy') {
